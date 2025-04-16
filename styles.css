@@ -1,0 +1,16 @@
+.sidebar-section {
+  width: 100px;
+  height: 100%;
+}
+
+.card-title-image {
+  z-index: 2;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*# sourceMappingURL=styles.css.map */
