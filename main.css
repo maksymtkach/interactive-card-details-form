@@ -22,7 +22,7 @@
   display: grid;
   right: 500px;
   grid-template-columns: 1fr 1fr;
-  width: 500px;
+  width: 400px;
 }
 
 .card-details-form > * {
@@ -35,6 +35,34 @@
 
 .card-number-row {
   grid-column: 1/3;
+}
+
+.exp-inputs input {
+  width: 45%;
+}
+
+.card-front-details {
+  position: absolute;
+  top: 150px;
+  left: 150px;
+  z-index: 4;
+  padding: 20px;
+}
+.card-front-details h1, .card-front-details p {
+  color: hsl(0, 0%, 100%);
+}
+.card-front-details p {
+  text-transform: uppercase;
+}
+.card-front-details .card-front-number {
+  margin-top: 56px;
+  margin-bottom: 16px;
+}
+.card-front-details .card-front-last-row {
+  display: flex;
+  flex-direction: row;
+  width: 400px;
+  justify-content: space-between;
 }
 
 * {
