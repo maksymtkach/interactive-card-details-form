@@ -25,16 +25,23 @@
           <p class="card-front-date">00/00</p>
         </div>
       </div>
+      <div class="card-front-cvc">000</div>
     </div>
     
     <form action="" class="card-details-form">
       <div class="name-row">
         <label for="name">Cardholder name</label><br>
         <input type="text" id="name" name="name"><br>
+        <div class="error">
+
+        </div>
       </div>
       <div class="card-number-row">
         <label for="card-number">Card number</label><br>
         <input type="text" id="card-number" name="card-number"><br>
+        <div class="error">
+          
+        </div>
       </div>
       <div class="exp-block">
         <span class="field-title">Exp. Date (MM/YY)</span>
@@ -42,42 +49,31 @@
           <input type="number" id="month-number" name="month" placeholder="MM">
           <input type="number" id="year-number" name="year" placeholder="YY">
         </div>
+        <div class="error">
+
+        </div>
       </div>
       <div class="cvc-inputs">
         <label for="сvc-number">CVC</label><br>
         <input type="number" id="сvc-number" name="сvc-number" placeholder="e.g. 123"><br>
+        <div class="error">
+          Wrong format, numbers only
+        </div>
       </div>
       <input type="submit" value="Confirm" name="submit-form-button" id="submit-form-button">
     </form>
   </main>
-  
 
-  000
+  <!-- 
+    Thank you!
+    We've added your card details
+    Continue
+   -->
 
-  Cardholder Name
-  e.g. Jane Appleseed
-
-  Card Number
-  e.g. 1234 5678 9123 0000
-
-  Exp. Date (MM/YY)
-  MM
-  YY
-
-  CVC
-  e.g. 123
-
-  Confirm
-
-  <!-- Completed state start -->
-
-  Thank you!
-  We've added your card details
-  Continue
-  
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
   </div>
 </body>
+<script src="script.js"></script>
 </html>
